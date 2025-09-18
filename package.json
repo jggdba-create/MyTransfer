@@ -1,0 +1,30 @@
+{
+  "name": "mytransfer",
+  "version": "1.0.0",
+  "description": "A Snapdrop-like web app for transferring files and text between devices using WebRTC",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "cd server && npm start",
+    "dev": "cd server && npm run dev",
+    "install-server": "cd server && npm install",
+    "build": "echo 'No build step required for static frontend'",
+    "deploy": "echo 'Deploy to Render.com using the Deploy button in README'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/mytransfer.git"
+  },
+  "keywords": [
+    "webrtc",
+    "file-transfer",
+    "p2p",
+    "websocket",
+    "snapdrop",
+    "file-sharing"
+  ],
+  "author": "MyTransfer",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
